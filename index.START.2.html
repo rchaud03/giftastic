@@ -46,8 +46,34 @@
             method: "GET"
         }).then(function(response) {
 
-            var gifDiv = $("<img class='gif-responses'>")
-        })
+            //creating div to hold the image
+            var gifContainer = $("<div class='gifContainers'>");
+            var gifDiv = $("<img>").attr("src"),imageUrl);
+
+            //storing the still and gif
+            var stillUrl = response.data.images.original_still.url;
+            var gifUrl = response.data.images.original.url;
+            var currentImage = "";
+
+            //Display the gif
+            var displayGif = gifContainer.append(currentImage);
+
+            gifDiv.append(currentImage);
+
+            $("#gifContainer").prepend(gifDiv);
+
+        });
+
+        function renderButtons() {
+            $("buttons-view").empty();
+
+            for (var i = 0 i < gifpics.length; i++) {
+
+                var gifButton = $("<button>").attr("data-name", gifpics[i]);
+                    gifButton.addClass("gif-buttons");
+                    
+            }
+        }
     
     
     }
