@@ -1,0 +1,36 @@
+#container {
+    width: 980px;
+    margin: 0 auto;
+    border: 10px;
+ /*   background-color: white;  */
+}
+
+#container {
+  /*   display: none;
+ /*     background-image: url("../images/quilt.png")  */
+
+}
+
+h1 {
+background-color: rgba(33, 33, 235, 0.87); /* */
+
+margin: 0;
+text-align: center;
+color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: 28px;
+}
+
+
+body {
+ margin: 0;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 18px;
+line-height: 150%;
+padding: 30px;
+/* background-image: url("../images/quab.png")  */
+}
+.p {
+    padding: 30px;
+}
