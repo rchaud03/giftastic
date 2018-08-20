@@ -36,8 +36,8 @@
         //console.log("this = "+ (this));
         //console.log("topic = " +topic);
         var apiKey = "  ";
-        //var queryUrl = "http://api.giphy.com/v1/gifs/search?q="+ topic + apiKey;
-        var queryUrl = "https://api.giphy.com/v1/gifs/search?q="+ topic + apiKey;
+        var queryUrl = "http://api.giphy.com/v1/gifs/search?q="+ topic + apiKey;
+        //var queryUrl = "https://api.giphy.com/v1/gifs/search?q="+ topic + apiKey;
 
         $.ajax({
             url: queryUrl,
