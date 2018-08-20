@@ -35,8 +35,9 @@
         var topic = $(this).attr("data-name");//.text;
         //console.log("this = "+ (this));
         //console.log("topic = " +topic);
-        var apiKey = "&api_key=LhapBAq4FkXdl8vl71nlSUXt6G2kWM0B";
-        var queryUrl = "http://api.giphy.com/v1/gifs/search?q="+ topic + apiKey;
+        var apiKey = "  ";
+        //var queryUrl = "http://api.giphy.com/v1/gifs/search?q="+ topic + apiKey;
+        var queryUrl = "https://api.giphy.com/v1/gifs/search?q="+ topic + apiKey;
 
         $.ajax({
             url: queryUrl,
