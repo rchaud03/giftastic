@@ -16,6 +16,7 @@
         console.log(addedGif);
         submitter();
         console.log(topicsArray);
+        $("#gif-input").text("");
 
     });
    
